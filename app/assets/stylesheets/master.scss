@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
 @import "bootstrap";
 
 .clear {
@@ -38,8 +40,23 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #FB4B45;
+  font-family: 'nobileregular', sans-serif;
+  font-weight: bold;
 }
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'nobileregular', sans-serif;  
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+   font-family: 'nobilemedium_italic', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
