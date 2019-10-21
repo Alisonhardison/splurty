@@ -1,24 +1,25 @@
-# README
+# Splurty
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Splurty is a Ruby on Rails quote randomizer web application. Please contribute if you have a quote of your own!
 
-Things you may want to cover:
+This app is viewable here https://splurty-alison-hardison.herokuapp.com
 
-* Ruby version
+## Implementation Details:
+ - Built on Ruby on Rails framework
+ - PostgreSQL database
+ - Twitter Bootstrap 3 for CSS and UI components
+ - Simple Form gem for form implementation
+ - Modal form quote submission
+ - Validation of form inputs
+ - Quotes randomly loaded from database & displayed upon page refresh
+ - Responsive design
+ 
+## Production Deployment
+  $ heroku create splurty-alison-hardison
 
-* System dependencies
+  $ git push heroku master
+  
+## Support
+  Bug reports and feature requests can be filed with the rest for the Ruby on Rails project here: 
+  https://github.com/Alisonhardison/splurty/issues
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
